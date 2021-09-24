@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Candidatos XPTO</title>
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+
+	</head>
+	<body>
+
+		<header>
+			<div class="container">
+				<h1 class="titulo">Candidatos XPTO</h1>
+			</div>
+		</header>
+		<main>
+			<section class="container">
+				<h2>Candidatos</h2>
+
+				<table>
+					<thead>
+						<tr>
+							<th>Nome</th>
+							<th>Sobrenome</th>
+							<th>CPF</th>
+							<th>Datadenasc</th>
+							<th>idade</th>
+							<th>maior de idade</th>
+						
+						</tr>
+					</thead>
+					<tbody id="tabela-candidatos">
+							<tr class="candidato"id="primeiro-candidato" ></tr>
+						
+			
+					</tbody>
+				</table>
+				 <span id="erro-ajax" class="invisivel">Erro ao buscar os Candidatos</span>
+<button id ="Enviar" class= "botao bto-principal">ENVIAR</button><onclick></onclick>
+			</section>
+		</main>
+<selection class="container">
+	<h2 id="titulo-form"> Adicionar novo candidato</h2>
+<ul id ="mensagens-erro">
+</ul>
+	<form id="form-adiciona">
+		<div class="">
+			<label for="nome">Nome:</label>
+			<input id="nome" name="nome"type="text" placeholder="digite o nome" class="campo">
+
+		</div>
+		<div class="grupo">
+			<label for="sobrenome"> Sobrenome:</label>
+			<input id= "sobrenome" name="sobrenome" type="text" placeholder=  "digite o sobrenome" class = " campo campo-medio">
+</div>
+
+<div class= "grupo">
+	<label form ="cpf">CPF:</label>
+	<input id="cpf"name="cpf" type="number" placeholder = "digite o cpf" class= "campo campo-medio">
+
+</div>
+<div class = "grupo">
+	<label form = "datadenasc"> Data de Nascimento: </label>
+	<input id= "datadenasc"  name="datadenasc" type="date" placeholder= "digite a data de nascimento"  class= "campo campo-medio">
+	
+</div>
+
+
+
+<button id ="adicionar-candidato" class= "botao bto-principal">Adicionar</button>
+</form>
+</section>
+         </main>
+        
+				 <script src="js/form.js"></script>
+				<script src="js/calculos_idade.js"></script>
+			
+				
+		 	
+
+     </body>
+ </html>
+	</body>
+</html>
