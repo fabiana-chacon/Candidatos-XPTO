@@ -114,14 +114,6 @@ return td;
 function validaCandidato(candidato){
 
   var erro =[];
-  
-//if (!validaDatadenasc(candidato.datadenasc)){
-  //erro.push ("DATA DE NASC INVÁLIDO");
-//}
-//if (candidato.idade< 18 ){
-//erro.push ( "Menor de idade, inscrição não permitida");
-//}
-
 
 
 if (candidato.nome.length==0){
